@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.pricing-section {
+    min-height: 100vh;
+    padding: 30px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-container {
+    width: 90%;
+    max-width: 1100px;
+}
+
+.pricing-heading {
+    font-size: 40px;
+    color: #ff6e30;
+    margin-bottom: 10px;
+}
+
+.pricing-desc {
+    font-size: 16px;
+    color: #fff;
+}
+
+.cards-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 16px;
+    background-color: #2c353d;
+    color: #fff;
+    margin: 0 30px 32px 0;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.card-desc {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e2e8f0;
+}
+
+.card-logo {
+    height: 35px;
+    width: 35px;
+    align-self: flex-end;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.duration {
+    color: #e2e8f0;
+    font-size: 12px;
+}
+
+.card-price-cont {
+    display: flex;
+    align-items: center;
+}
+
+.card-menu {
+    padding-left: 24px;
+    flex-grow: 1;
+}
+
+.card-feaure {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e2e8f0;
+    margin-bottom: 24px;
+}
+
+.card-btn {
+    color: #2d3748;
+    border-radius: 15px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 0;
+    cursor:pointer;
+}
+
+.premium-plan {
+    background-color: #ff6e30;
+    color: #fff;
+}
